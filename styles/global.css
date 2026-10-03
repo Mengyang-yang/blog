@@ -1,0 +1,6 @@
+/*@import url('prism-themes/themes/prism-dracula.css');*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your own custom utilities */
