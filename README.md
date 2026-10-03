@@ -124,9 +124,8 @@ Sitemaps are an important part of SEO. This section walks through adding your ba
 
 The generated sitemap can be found in `public/sitemap.xml`. This command also generates a new `public/robots.txt` file.
 
-1. Open the `scripts/generate.sitemap.mjs` file.
+1. Open the `scripts/generate-sitemap.mjs` file.
 2. On Line 5, replace `https://blog-starter.sandypockets.dev` with your own blog's website.
-3. On Line 6, replace `en-CA` with your preferred locale (`en-UK`, `en-US`, etc.). This is used to determine the format of the date stamp in the sitemap.  
 
 When you're ready to test it:
 

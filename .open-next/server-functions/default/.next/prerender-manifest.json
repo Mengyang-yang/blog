@@ -7,7 +7,7 @@
       "compute": "static",
       "initialRevalidateSeconds": false,
       "srcRoute": null,
-      "dataRoute": "/_next/data/jH873hwc8MfQV-YxQDmQp/index.json",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/index.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -23,7 +23,23 @@
       "compute": "static",
       "initialRevalidateSeconds": false,
       "srcRoute": "/posts/[slug]",
-      "dataRoute": "/_next/data/jH873hwc8MfQV-YxQDmQp/posts/a-nextjs-blog-starter-you-actually-want-to-use.json",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/a-nextjs-blog-starter-you-actually-want-to-use.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/posts/ChatgptLink": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[slug]",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/ChatgptLink.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -39,7 +55,23 @@
       "compute": "static",
       "initialRevalidateSeconds": false,
       "srcRoute": "/posts/[slug]",
-      "dataRoute": "/_next/data/jH873hwc8MfQV-YxQDmQp/posts/getting-started.json",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/getting-started.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/posts/HealthyDiet": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[slug]",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/HealthyDiet.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -55,7 +87,39 @@
       "compute": "static",
       "initialRevalidateSeconds": false,
       "srcRoute": "/posts/[slug]",
-      "dataRoute": "/_next/data/jH873hwc8MfQV-YxQDmQp/posts/markdown-reference.json",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/markdown-reference.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/posts/quick-reference-for-macos-network-reset-commands": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[slug]",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/quick-reference-for-macos-network-reset-commands.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/posts/website-collection-1": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/posts/[slug]",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/website-collection-1.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -69,9 +133,9 @@
   "dynamicRoutes": {
     "/posts/[slug]": {
       "routeRegex": "^/posts/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/jH873hwc8MfQV-YxQDmQp/posts/[slug].json",
+      "dataRoute": "/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/[slug].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/jH873hwc8MfQV\\-YxQDmQp/posts/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -84,8 +148,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "a1bfea7c017d2d01b3158238835a1d12",
-    "previewModeSigningKey": "e4c46bd782101603c599264417179c90c215975667d833569de161082a4df158",
-    "previewModeEncryptionKey": "de24958cfc31e7505a88910b7b430aa959780c0dccaa855af4d64633f86b3968"
+    "previewModeId": "e62dd77ceb27cfe82b107eaaee7129b7",
+    "previewModeSigningKey": "65fe2abfef099c91694464078d3484c8d1862bb266263a1d4d067c8e1e40c155",
+    "previewModeEncryptionKey": "087ce039526a6d079be124e19490c93a401d3478904224e21b2ada4c9a82c98b"
   }
 }

@@ -2,8 +2,7 @@ import { writeFileSync } from 'fs'
 import { globby } from 'globby'
 import prettier from 'prettier'
 
-const BLOG_URL = 'https://blog-starter.sandypockets.dev'
-const LANG = 'en-CA'
+const BLOG_URL = 'https://mengyangblog.page'
 
 async function generate() {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
@@ -23,23 +22,13 @@ async function generate() {
           .map((page) => {
             const path = page
               .replace('pages', '')
-              .replace('.js', '')
-              .replace('.jsx', '')
               .replace('_posts', '/posts')
               .replace('index', '')
-              .replace('.md', '')
+              .replace(/\.(?:jsx?|md)$/, '')
 
-            let route = path === '/index' ? '' : path
+            const route = path === '/index' || path === '/' ? '' : path
 
-            const pathLength = path.length
-            if (path[pathLength - 1] === 'x') {
-              route = path.slice(0, pathLength - 1)
-            }
-
-            const lastModifiedDate = new Date(Date.now())
-              .toLocaleString(LANG)
-              .split(' ')[0]
-              .replace(',', '')
+            const lastModifiedDate = new Date().toISOString().split('T')[0]
 
             return `
               <url>
@@ -54,7 +43,7 @@ async function generate() {
     </urlset>
     `
 
-  const formatted = prettier.format(sitemap, {
+  const formatted = await prettier.format(sitemap, {
     ...prettierConfig,
     parser: 'html',
   })

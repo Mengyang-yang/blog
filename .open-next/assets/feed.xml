@@ -4,8 +4,22 @@
         <description><![CDATA[Next.js Blog Starter]]></description>
         <link>https://blog-starter.sandypockets.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 Oct 2026 06:34:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2026 07:20:23 GMT</lastBuildDate>
         <atom:link href="https://blog-starter.sandypockets.dev/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ChatGPTLink]]></title>
+            <description><![CDATA[给文章难懂的词接上 ChatGPT / Grok]]></description>
+            <link>https://blog-starter.sandypockets.dev/posts/ChatgptLink</link>
+            <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/ChatgptLink</guid>
+            <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Healthy Diet]]></title>
+            <description><![CDATA[关于健康饮食的个人记录。]]></description>
+            <link>https://blog-starter.sandypockets.dev/posts/HealthyDiet</link>
+            <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/HealthyDiet</guid>
+            <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[A blog starter you actually want to use]]></title>
             <description><![CDATA[There are hundreds of different blog starters out there. But none felt quite right. So I built my own. Based off the basic Next.js Blog Starter, but now with several handy features like dark mode (using local storage) or Google Analytics. It comes with Storybook too.]]></description>
@@ -26,6 +40,20 @@
             <link>https://blog-starter.sandypockets.dev/posts/markdown-reference</link>
             <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/markdown-reference</guid>
             <pubDate>Tue, 24 Aug 2021 05:35:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🌐 macOS 网络重置命令速查]]></title>
+            <description><![CDATA[一张速查卡：macOS 常见网络故障的终端修复命令。]]></description>
+            <link>https://blog-starter.sandypockets.dev/posts/quick-reference-for-macos-network-reset-commands</link>
+            <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/quick-reference-for-macos-network-reset-commands</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[网站合集（1）]]></title>
+            <description><![CDATA[收集几个好用又小众的网站，第一期先介绍四个。]]></description>
+            <link>https://blog-starter.sandypockets.dev/posts/website-collection-1</link>
+            <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/website-collection-1</guid>
+            <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

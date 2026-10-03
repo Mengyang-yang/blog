@@ -45,12 +45,6 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
-      "page": "/api/email",
-      "regex": "^/api/email(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/email(?:/)?$"
-    },
-    {
       "page": "/contact",
       "regex": "^/contact(?:/)?$",
       "routeKeys": {},
@@ -60,15 +54,15 @@
   "dataRoutes": [
     {
       "page": "/",
-      "dataRouteRegex": "^/_next/data/jH873hwc8MfQV\\-YxQDmQp/index\\.json$"
+      "dataRouteRegex": "^/_next/data/EAmQPcL6IFOUF1wlMAJFx/index\\.json$"
     },
     {
       "page": "/posts/[slug]",
       "routeKeys": {
         "nxtPslug": "nxtPslug"
       },
-      "dataRouteRegex": "^/_next/data/jH873hwc8MfQV\\-YxQDmQp/posts/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/jH873hwc8MfQV\\-YxQDmQp/posts/(?<nxtPslug>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/EAmQPcL6IFOUF1wlMAJFx/posts/(?<nxtPslug>[^/]+?)\\.json$"
     }
   ],
   "rsc": {

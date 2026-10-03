@@ -8,15 +8,15 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "generate": "node ./scripts/generate-sitemap.mjs && node ./scripts/generate-rss.mjs",
+    "build": "npm run generate && next build",
     "start": "next start",
     "lint": "prettier ./ --write && next lint",
-    "postbuild": "node ./scripts/generate-sitemap.mjs && node ./scripts/generate-rss.mjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "new": "node ./scripts/generate-post.js",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+    "preview": "npm run generate && opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "npm run generate && opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "repository": {
     "type": "git",
