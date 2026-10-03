@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Next.js Blog Starter]]></title>
+        <description><![CDATA[Next.js Blog Starter]]></description>
+        <link>https://blog-starter.sandypockets.dev</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 03 Oct 2026 06:34:40 GMT</lastBuildDate>
+        <atom:link href="https://blog-starter.sandypockets.dev/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[A blog starter you actually want to use]]></title>
+            <description><![CDATA[There are hundreds of different blog starters out there. But none felt quite right. So I built my own. Based off the basic Next.js Blog Starter, but now with several handy features like dark mode (using local storage) or Google Analytics. It comes with Storybook too.]]></description>
+            <link>https://blog-starter.sandypockets.dev/posts/a-nextjs-blog-starter-you-actually-want-to-use</link>
+            <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/a-nextjs-blog-starter-you-actually-want-to-use</guid>
+            <pubDate>Tue, 24 Aug 2021 05:35:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Getting started with this template]]></title>
+            <description><![CDATA[Everything you need to know to get a Next.js blog up and running.]]></description>
+            <link>https://blog-starter.sandypockets.dev/posts/getting-started</link>
+            <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/getting-started</guid>
+            <pubDate>Tue, 24 Aug 2021 05:35:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Markdown reference]]></title>
+            <description><![CDATA[Sick of starters that accept markdown, but don't come with any built-in styling? Check out what works right out of the box.]]></description>
+            <link>https://blog-starter.sandypockets.dev/posts/markdown-reference</link>
+            <guid isPermaLink="true">https://blog-starter.sandypockets.dev/posts/markdown-reference</guid>
+            <pubDate>Tue, 24 Aug 2021 05:35:07 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

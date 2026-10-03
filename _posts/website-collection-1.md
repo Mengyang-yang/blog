@@ -1,0 +1,62 @@
+---
+title: "网站合集（1）"
+date: 2026-07-21
+author:
+  name: "sandypockets"
+  picture: "/assets/blog/authors/sandypockets_avatar.jpg"
+coverImage: "/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree-minimal.jpg"
+excerpt: "收集几个好用又小众的网站，第一期先介绍四个。"
+ogImage:
+  url: "/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree-minimal.jpg"
+tags: []
+description: "收集几个好用又小众的网站，第一期先介绍四个。"
+---
+
+## 1. macOS Icons
+
+[macosicons.com](https://macosicons.com) 收集了大量自定义 macOS App 图标，免费下载替换 Dock 里的默认图标，用来美化系统。
+
+## 2. Emojipedia · Apple
+
+[emojipedia.org/apple](https://emojipedia.org/apple) 专门展示苹果系统的 emoji 设计，能看到同一个 emoji 在不同 iOS 版本下的样子变化。
+
+## 3. OSS Insight
+
+[ossinsight.io](https://ossinsight.io) 由 [PingCAP](https://www.pingcap.com) 打造，用可视化图表展示 GitHub 开源项目的数据洞察，比如 Star 增长趋势、语言排行榜、贡献者活跃度等。
+
+## 4. Vocatype
+
+[vocatype.app](https://vocatype.app) 是一个通过打字来背单词的学习网站，边打字边记忆，适合练拼写。
+
+## 5. Claude’s Sticker
+
+[stickermule.com](https://www.stickermule.com/claudecode)这里面有很多Claude周边的sticker,而且网站做的也很不错，mark一下。
+
+## 6. Apple Store 比价格
+
+[appstoreprice.org](https://appstoreprice.org) 一个可以查看各类App价格的网站
+
+## 7. Swift Language Learning Tutorials
+
+[/welcome-to-develop-in-swift-tutorials](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-develop-in-swift-tutorials) 学习Swift语言
+
+## ipcheck
+
+[ipcheck](https://ipcheck.ing/#/)可以检测你的IP信息
+
+## kukutool去水印
+
+[dy.kukutool.com](https://dy.kukutool.com/zh-Hans-SG)
+
+## uigradient
+
+[uigradient](https://uigradients.com/#Kyoto)
+
+## fast
+
+[fast](https://fast.com)一个测试网速的网站
+后续会陆续补充，凑够五个网站。
+
+## e-book
+
+[OceanofPDF](OceanofPDF）是一个下载电子书的网站

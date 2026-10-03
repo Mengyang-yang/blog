@@ -1,0 +1,33 @@
+---
+title: "🌐 macOS 网络重置命令速查"
+date: 2025-05-16
+author:
+  name: "sandypockets"
+  picture: "/assets/blog/authors/sandypockets_avatar.jpg"
+coverImage: "/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree-minimal.jpg"
+excerpt: "一张速查卡：macOS 常见网络故障的终端修复命令。"
+ogImage:
+  url: "/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree-minimal.jpg"
+image: https://cdn.mikeq95blog.uk/coverimage/macos-network-reset-command-en-cn.png
+tags: []
+description: "一张速查卡：macOS 常见网络故障的终端修复命令，包含 DNS 刷新、DHCP 重置等，遇到断网问题直接查。"
+---
+
+## 常用命令（按推荐顺序）
+
+### 1. 刷新 [DNS 缓存](https://clearlove7-ai.vercel.app?word=DNS缓存&postId=2025-05-16-quick-reference-for-macOS%20network-reset-commands)
+
+
+```bash
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+```
+
+![刷新DNS命令终端截图](https://cdn.mikeq95blog.uk/coverimage/刷新DNS命令终端截图.png)
+
+### 2. 释放并重新获取 IP（[DHCP](https://clearlove7-ai.vercel.app?word=DHCP&postId=2025-05-16-quick-reference-for-macOS%20network-reset-commands)）
+
+```bash
+sudo ipconfig set en0 DHCP
+```
+
+![释放并重新获取IP](https://cdn.mikeq95blog.uk/coverimage/释放并重新获取IP.png)
