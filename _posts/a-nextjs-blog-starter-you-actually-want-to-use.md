@@ -4,8 +4,8 @@ excerpt: 'There are hundreds of different blog starters out there. But none felt
 coverImage: '/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree-minimal.jpg'
 date: '2021-08-24T05:35:07.322Z'
 author:
-  name: sandypockets
-  picture: '/assets/blog/authors/sandypockets_avatar.jpg'
+  name: mengyang
+  picture: '/assets/blog/authors/mengyang_avatar.png'
 ogImage:
   url: '/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree.jpg'
 ---

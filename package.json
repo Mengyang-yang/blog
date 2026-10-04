@@ -33,6 +33,7 @@
     "classnames": "2.2.6",
     "date-fns": "3.6.0",
     "gray-matter": "4.0.3",
+    "lucide-react": "^1.51.0",
     "next": "latest",
     "prism-themes": "^1.9.0",
     "react": "^18.2.0",
