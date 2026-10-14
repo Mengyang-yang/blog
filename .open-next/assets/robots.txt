@@ -1,2 +1,0 @@
-User-agent: * 
-Sitemap: https://blog-starter.sandypockets.dev/sitemap.xml

@@ -13,9 +13,5 @@
       "binding": "WORKER_SELF_REFERENCE",
       "service": "mengyang-blog"
     }
-  ],
-  "routes": [
-    { "pattern": "mengyangblog.page", "custom_domain": true },
-    { "pattern": "www.mengyangblog.page", "custom_domain": true }
   ]
 }
