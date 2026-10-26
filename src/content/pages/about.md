@@ -1,45 +1,37 @@
 ---
-title: "About Me"
-description: "关于 Mengyang Yang 的个人介绍与博客说明"
+title: "About"
+description: "A bit about me and this blog."
 ---
 
-## 基本信息
+AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
 
-- **姓名**：Mengyang Yang
-- **身份**：电子信息工程专业学生
-- **所在地**：中国
-- **开始学习编程**：2024 年
+![Astro Paper](@/assets/images/astropaper-og.jpg)
 
-## 技术栈
+AstroPaper provides a solid foundation for blogs, or even portfolios_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
 
-### 编程语言
+The blog posts in this theme also serve as guides, docs or example articles_ making AstroPaper a flexible starting point for your next content-driven site.
 
-- C
-- C++
-- Swift
+## Features
 
-### Web 与原生 UI
+AstroPaper comes with a set of useful features that make content publishing easy and effective:
 
-- React
-- Next.js
-- TypeScript
-- Tailwind CSS
-- SwiftUI
+- SEO-friendly
+- Fast performance
+- Light & dark mode
+- Highly customizable
+- Organizable blog posts
+- Responsive & accessible
+- Static search with [PageFind](https://pagefind.app/)
+- Automatic social image generation
 
-### 工具
+and so much more.
 
-- Git
-- VS Code
+## Show your support
 
-## 兴趣爱好
+If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
 
-- 音乐
-- 编程
-- 写作
+Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
 
-我喜欢探索软件如何把想法变成有用的工具，也关注产品是否易用。我正在通过持续学习和实践打好基础，并在博客中记录学习内容、分享项目和总结成长。
+If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
 
-## 社交与联系方式
-
-- **GitHub**：[Mengyang-yang](https://github.com/Mengyang-yang)
-- **邮箱**：giffgaffuk78459@icloud.com
+Kyay zuu! 🙏🏼
