@@ -1,37 +1,30 @@
 ---
 title: "About"
-description: "A bit about me and this blog."
+description: "A bit about me, my tech stack, and what I build."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Mengyang's Blog is a minimal personal website built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/), focusing on software craft, engineering notes, and digital utilities.
 
 ![Astro Paper](@/assets/images/astropaper-og.jpg)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+This site provides a digital home for my work and studies—spanning electronic & information engineering, system programming with C/C++, and native app crafting with SwiftUI.
 
-The blog posts in this theme also serve as guides, docs or example articles_ making AstroPaper a flexible starting point for your next content-driven site.
+The posts here serve as practical guides, tool reviews, and technical reflections from my everyday learning, exploring how software turns ideas into useful products.
 
-## Features
+## Areas of Interest
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Here are the core topics and technologies I focus on exploring and writing about:
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+- Systems & Foundations: C and C++ programming
+- Native Apple Ecosystem: UI design with SwiftUI
+- Web Interfaces: React, Next.js, and Tailwind CSS
+- Usability & Ergonomics: Building software that is actually intuitive to use
+- Toolsmithing: Automating workflows and sharing useful tools
 
-and so much more.
+## Connect & Feedback
 
-## Show your support
+If you find any of my posts or projects helpful, feel free to explore my repositories on [GitHub](https://github.com/Mengyang-yang) ⭐️.
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+Have a question 💡, suggestion 🛠️, or just want to chat about tech? Feel free to drop me an [Email](mailto:giffgaffuk78459@icloud.com).
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Thanks for stopping by! 🙏🏼
