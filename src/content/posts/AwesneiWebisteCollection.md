@@ -1,7 +1,7 @@
 ---
 author: Mengyang Yang
 pubDatetime: 2026-09-28T00:00:00.000Z
-title: "Awesome website collection"
+title: "Awesome Website Collection"
 featured: false
 draft: false
 tags:
