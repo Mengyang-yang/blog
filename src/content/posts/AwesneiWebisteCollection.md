@@ -14,14 +14,6 @@ description: "I've collected a lot of free, ad-free websites and am sharing them
 
 [macosicons.com](https://macosicons.com) collects a large number of custom macOS app icons, free to download and use to personalize the Dock.
 
-## 2. Emojipedia · Apple
-
-[emojipedia.org/apple](https://emojipedia.org/apple) showcases how Apple-style emojis look across different iOS versions.
-
-## 3. OSS Insight
-
-[ossinsight.io](https://ossinsight.io) is a data visualization platform built by [PingCAP](https://www.pingcap.com) for GitHub open-source insights such as star growth, language trends, and contributor activity.
-
 ## 4. Vocatype
 
 [vocatype.app](https://vocatype.app) is a typing-based vocabulary learning site that helps you memorize words while typing.
@@ -44,7 +36,7 @@ description: "I've collected a lot of free, ad-free websites and am sharing them
 
 ## 9. KuKuTool Watermark Removal
 
-[dy.kukutool.com](https://dy.kukutool.com/zh-Hans-SG) offers tools for removing watermarks from videos.
+[dy.kukutool.com](https://dy.kukutool.com/zh-Hans-SG) offers tools for removing watermarks from videos and support 130+ platforms
 
 ## 10. UI Gradient
 
@@ -59,3 +51,22 @@ description: "I've collected a lot of free, ad-free websites and am sharing them
 [OceanofPDF](https://oceanofpdf.com) is a website for downloading e-books.
 
 More useful resources will be added over time.
+
+## 13. wangyiDic
+
+[网易有道词典]（https://www.youdao.com/result?word=sources&lang=en） is a dic website.(Chinese user friendly
+
+## 14. VPN provider
+
+[Nowhere Network](https://dashboard.nowhere.best/#/landing) This is my favrite VOn provider, it have good prices and human support.
+
+## 15.Blume Docs framework
+
+[Blu,e Docs](https://useblume.dev)The open-source
+docs framework
+for humans and agents
+
+## Brave Search
+
+[Brave Search](https://search.brave.com)A search engineer that focuse on pravicy.
+

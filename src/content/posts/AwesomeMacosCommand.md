@@ -11,7 +11,10 @@ description: "A collection of useful macOS commands."
 ---
 
 # Related sources
-- [MacosCommangList](https://github.com/yannbertrand/macos-defaults)
+- [MacosCommangList](https://macos-defaults.com)
+- [MacDefalut git resposity](https://github.com/yannbertrand/macos-defaults)
+- [m-cli](https://github.com/rgcr/m-cli)
+
 # Awesome macOS Command
 
 **在Macos终端快速生成当前时间**
