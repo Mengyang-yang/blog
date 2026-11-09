@@ -8,7 +8,7 @@ tags:
   - tools
   - cli
   - video
-description: "这个 Skill 提供下载 YouTube 和 Bilibili 视频的命令，帮助你更高效地使用 yt-dlp（命令已经适配中国大陆和其他国家）"
+description: "This Skill privides commands for downloading Youtube adn Bilibili videos, help you use yt-dlp more efficiently(The commands are already adapted for mainland China and other countries)"
 ---
 
 # Content and Background

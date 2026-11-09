@@ -4,7 +4,7 @@ pubDatetime: 2022-09-23T15:22:00.000Z
 modDatetime: 2026-11-01T10:00:00.000Z
 title: "Adding new posts in AstroPaper theme"
 featured: false
-draft: false
+draft: true
 tags:
   - docs
   - astro
@@ -17,7 +17,8 @@ This guide covers the rules and conventions for creating new posts in AstroPaper
 ![Photo by Pixabay](https://images.pexels.com/photos/159618/still-life-school-retro-ink-159618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 
 _Photo by [Pixabay](https://www.pexels.com/photo/brown-wooden-desk-159618/)_
-
+ <!-- 紧跟在图片下方用 _..._ 写一行斜体说明，是 Markdown
+  博客里最常用的图片图注/摄影师署名惯例写法。 -->
 ## Table of contents
 
 ## Creating a Blog Post

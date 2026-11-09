@@ -3,7 +3,7 @@ author: Mengyang Yang
 pubDatetime: 2026-11-03T02:13:30.000Z
 title: "Use Userscripts to Remove Ads in Youdao"
 featured: false
-draft: true
+draft: false
 tags:
   - safari
   - userscripts

@@ -3,7 +3,7 @@ author: Mengyang Yang
 pubDatetime: 2026-11-02T09:00:00.000Z
 title: "Awesome macOS Command"
 featured: false
-draft: true
+draft: false
 tags:
   - mac
   - command
