@@ -20,12 +20,14 @@ I usually watch videos on Douyin, TikTok and YouTube. Watching these videos, I f
 I asked GitHub Copilot for recommendations, and this was its suggestion:
 
 First, **MacWhisper**
+
 - Offers both free and paid versions
 - GUI and CLI
 - Exports transcripts as `.txt`, `.md`, and other formats
 - Supports local processing for better privacy
 
 Another option is **Buzz**:
+
 - Totally free
 - Exports transcripts only as `.txt` and `.srt` files
 
@@ -71,7 +73,6 @@ Have you ever wondered whether some of the information in online videos is inacc
 So the reason why I write this is to share my idea on how to fact-check online content.
 **As small as an individual creator, as big as BBC, CCTV, don't treat their views as facts, the best thing is to fact check.**
 
-
 # Related Articles
 
-I will add  later.Thanks for reading!
+I will add later.Thanks for reading!

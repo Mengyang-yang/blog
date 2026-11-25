@@ -1,25 +1,17 @@
 import type { APIRoute } from "astro";
+import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
 import satori from "satori";
 import sharp from "sharp";
-import { fontData, experimental_getFontFileURL } from "astro:assets";
-import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import config from "@/config";
 
-export const GET: APIRoute = async context => {
-  const fonts = fontData["--font-google-sans-code"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
-
-  if (regularFontPath === undefined || boldFontPath === undefined) {
-    throw new Error("Cannot find the font path.");
-  }
-
+export const GET: APIRoute = async () => {
   const [regularData, boldData] = await Promise.all([
-    fetch(experimental_getFontFileURL(regularFontPath, context.url)).then(res =>
-      res.arrayBuffer()
+    readFile(
+      resolve(process.cwd(), "src/assets/fonts/MonaspaceArgon-Regular.otf")
     ),
-    fetch(experimental_getFontFileURL(boldFontPath, context.url)).then(res =>
-      res.arrayBuffer()
+    readFile(
+      resolve(process.cwd(), "src/assets/fonts/MonaspaceArgon-Bold.otf")
     ),
   ]);
 
@@ -34,7 +26,7 @@ export const GET: APIRoute = async context => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Google Sans Code",
+          fontFamily: "Monaspace Argon",
         },
         children: [
           {
@@ -145,13 +137,13 @@ export const GET: APIRoute = async context => {
       embedFont: true,
       fonts: [
         {
-          name: "Google Sans Code",
+          name: "Monaspace Argon",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Google Sans Code",
+          name: "Monaspace Argon",
           data: boldData,
           weight: 700,
           style: "normal",

@@ -60,13 +60,49 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Google Sans Code",
-      cssVariable: "--font-google-sans-code",
-      provider: fontProviders.google(),
+      name: "Monaspace Argon",
+      cssVariable: "--font-monaspace-argon",
+      provider: fontProviders.local(),
       fallbacks: ["monospace"],
-      weights: [300, 400, 500, 600, 700],
-      styles: ["normal", "italic"],
-      formats: ["woff", "ttf"],
+      options: {
+        variants: [
+          {
+            src: ["./src/assets/fonts/MonaspaceArgon-Light.otf"],
+            weight: 300,
+            style: "normal",
+          },
+          {
+            src: ["./src/assets/fonts/MonaspaceArgon-LightItalic.otf"],
+            weight: 300,
+            style: "italic",
+          },
+          {
+            src: ["./src/assets/fonts/MonaspaceArgon-Regular.otf"],
+            weight: 400,
+            style: "normal",
+          },
+          {
+            src: ["./src/assets/fonts/MonaspaceArgon-Italic.otf"],
+            weight: 400,
+            style: "italic",
+          },
+          {
+            src: ["./src/assets/fonts/MonaspaceArgon-Medium.otf"],
+            weight: 500,
+            style: "normal",
+          },
+          {
+            src: ["./src/assets/fonts/MonaspaceArgon-SemiBold.otf"],
+            weight: 600,
+            style: "normal",
+          },
+          {
+            src: ["./src/assets/fonts/MonaspaceArgon-Bold.otf"],
+            weight: 700,
+            style: "normal",
+          },
+        ],
+      },
     },
   ],
   env: {

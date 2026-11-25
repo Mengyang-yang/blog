@@ -69,4 +69,3 @@ for humans and agents
 ## Brave Search
 
 [Brave Search](https://search.brave.com)A search engineer that focuse on pravicy.
-

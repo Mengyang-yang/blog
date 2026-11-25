@@ -30,37 +30,37 @@ First, install Userscripts from Safari extensions, create a new user script, and
 // @description  去广告、网页绿化（只保留导航 + 搜索）
 // ==/UserScript==
 (function () {
-    "use strict";
+  "use strict";
 
-    const SELECTORS = [
-        'div.top-banner-wrap',
-        '.product-container',
-        '.rollNumber-with-banner',
-        '.content-bg',
-        'footer.footer_container',
-        '.footer_container',
-        '.dict-website-footer',
-        '.footer-gray',
-        '.dict-website-footer-container',
-        '.copyright',
-        'div.dict-module > div[disable-zoom]',
-        '.user-feed_back',
-        '.feedbackBtn',
-        '.go-top',
-    ];
+  const SELECTORS = [
+    "div.top-banner-wrap",
+    ".product-container",
+    ".rollNumber-with-banner",
+    ".content-bg",
+    "footer.footer_container",
+    ".footer_container",
+    ".dict-website-footer",
+    ".footer-gray",
+    ".dict-website-footer-container",
+    ".copyright",
+    "div.dict-module > div[disable-zoom]",
+    ".user-feed_back",
+    ".feedbackBtn",
+    ".go-top",
+  ];
 
-    function removeAll() {
-        SELECTORS.forEach(selector => {
-            document.querySelectorAll(selector).forEach(el => el.remove());
-        });
-    }
+  function removeAll() {
+    SELECTORS.forEach(selector => {
+      document.querySelectorAll(selector).forEach(el => el.remove());
+    });
+  }
 
-    // 强制修复建议框被裁剪
-    function injectFix() {
-        if (document.getElementById('youdao-suggest-fix')) return;
-        const style = document.createElement('style');
-        style.id = 'youdao-suggest-fix';
-        style.textContent = `
+  // 强制修复建议框被裁剪
+  function injectFix() {
+    if (document.getElementById("youdao-suggest-fix")) return;
+    const style = document.createElement("style");
+    style.id = "youdao-suggest-fix";
+    style.textContent = `
             /* 解除建议框自身裁剪 */
             .autosuggest__results-container,
             #autosuggest-autosuggest__results {
@@ -92,34 +92,40 @@ First, install Userscripts from Safari extensions, create a new user script, and
                 overflow: visible !important;
             }
         `;
-        (document.head || document.documentElement).appendChild(style);
-    }
+    (document.head || document.documentElement).appendChild(style);
+  }
 
+  removeAll();
+  injectFix();
+
+  const observer = new MutationObserver(() => {
     removeAll();
     injectFix();
+  });
 
-    const observer = new MutationObserver(() => {
-        removeAll();
-        injectFix();
-    });
-
-    function startObserving() {
-        if (document.body) {
-            observer.observe(document.body, { childList: true, subtree: true });
-            removeAll();
-            injectFix();
-        }
-    }
-
+  function startObserving() {
     if (document.body) {
-        startObserving();
-    } else {
-        document.addEventListener('DOMContentLoaded', startObserving);
+      observer.observe(document.body, { childList: true, subtree: true });
+      removeAll();
+      injectFix();
     }
+  }
 
-    window.addEventListener('popstate', () => { removeAll(); injectFix(); });
-    window.addEventListener('load', () => { removeAll(); injectFix(); });
-})()
+  if (document.body) {
+    startObserving();
+  } else {
+    document.addEventListener("DOMContentLoaded", startObserving);
+  }
+
+  window.addEventListener("popstate", () => {
+    removeAll();
+    injectFix();
+  });
+  window.addEventListener("load", () => {
+    removeAll();
+    injectFix();
+  });
+})();
 ```
 
 After saving and enabling the script, refresh Youdao. The matching promotional elements should be removed automatically.

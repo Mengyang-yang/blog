@@ -1,11 +1,11 @@
 ---
-abthor: Mengyang Yang
+author: Mengyang Yang
 pubDatetime: 2026-11-25T04:56:51.000Z
 title: "LearnReact(0) -- Recommended Resources"
 featured: false
 draft: false
 tags:
-  - learn 
+  - learn
   - React
 description: "Recording my journey of learning React(0)"
 ---
@@ -32,9 +32,10 @@ If you a beginner, you should read Getting start section, and then read the tuto
 
 ## The importance of English
 
-If you are chinese or people who don't speak English, I think we should read tutorials written in English. 
+If you are chinese or people who don't speak English, I think we should read tutorials written in English.
 
 **Reason**:
+
 - English is a very popular language
 - type code in English, not pinyin or etc.
 - 如果你是中国大学生的话，好像还有英语四级要考试？对吧？那不如顺便学习编程的同时也学习英语。
@@ -63,7 +64,7 @@ So let's see how should use this in exercises.
 > [!EXAMPLE]
 > click that youtube link on your pc or ipad, and then you play the video, and write down somethings, after fininshed, ask Ai what does these sentence or words means.
 
-Here is another question, you can ask Ai, but Ai can not according the video to give you best answer, or you have to write lots of prompts. 
+Here is another question, you can ask Ai, but Ai can not according the video to give you best answer, or you have to write lots of prompts.
 
 So My way to fix this is download the video and use MacWhisper to convert video to text, After got result , bring it to Ai, and then keep ask question to Ai, and I'm sure, he will give you better anser
 

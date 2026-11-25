@@ -19,6 +19,7 @@ This guide covers the rules and conventions for creating new posts in AstroPaper
 _Photo by [Pixabay](https://www.pexels.com/photo/brown-wooden-desk-159618/)_
  <!-- 紧跟在图片下方用 _..._ 写一行斜体说明，是 Markdown
   博客里最常用的图片图注/摄影师署名惯例写法。 -->
+
 ## Table of contents
 
 ## Creating a Blog Post

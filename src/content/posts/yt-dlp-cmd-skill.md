@@ -44,10 +44,9 @@ Read this article and give me the correct yt-dlp command for this URL:
 
 Replace `[article link]` with the URL of this article. Whether this works depends on whether your AI assistant can access the article link.
 
-## I don't use AI 
+## I don't use AI
 
 Here are the commands. Prepare a single video URL or playlist URL, and replace the Chinese placeholders with your own URL.
-
 
 ### I'm in mainland China or using a VPN to watch YouTube
 
@@ -88,6 +87,7 @@ yt-dlp --impersonate chrome -f "bv*+ba[ext=m4a]/b" --merge-output-format mp4 "�
 cd ~/Desktop
 yt-dlp --impersonate chrome --cookies-from-browser chrome --extractor-args "youtube:player_client=default,web_embedded" --no-write-subs --ignore-errors --download-archive youtube-archive.txt --sleep-interval 5 --max-sleep-interval 15 --retries 10 --fragment-retries 10 --restrict-filenames -f "bv*+ba[ext=m4a]/b[ext=mp4]/b" --merge-output-format mp4 -o "%(playlist)s/%(playlist_index)03d - %(title)s [%(id)s].%(ext)s" "播放列表网址"
 ```
+
 **For Bilibili:**
 
 **Single video:**
@@ -96,6 +96,7 @@ yt-dlp --impersonate chrome --cookies-from-browser chrome --extractor-args "yout
 cd ~/Desktop
 yt-dlp --cookies-from-browser chrome -f "bv*+ba/b" --merge-output-format mp4 "视频网址"
 ```
+
 **Playlist:**
 
 ```bash
