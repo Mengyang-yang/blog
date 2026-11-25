@@ -1,9 +1,9 @@
 import type { APIRoute } from "astro";
-import { readFile } from "node:fs/promises";
-import { resolve } from "node:path";
 import { getCollection } from "astro:content";
+import { fontData, experimental_getFontFileURL } from "astro:assets";
 import satori from "satori";
 import sharp from "sharp";
+import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import { getPostSlug } from "@/utils/getPostPaths";
 import config from "@/config";
 
@@ -22,17 +22,25 @@ export async function getStaticPaths() {
   }));
 }
 
-export const GET: APIRoute = async ({ props }) => {
+export const GET: APIRoute = async ({ props, url }) => {
   if (!config.features.dynamicOgImage) {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
+  const fonts = fontData["--font-google-sans-code"];
+  const regularFontPath = getFontPathByWeight(fonts, 400);
+  const boldFontPath = getFontPathByWeight(fonts, 700);
+
+  if (regularFontPath === undefined || boldFontPath === undefined) {
+    throw new Error("Cannot find the font path.");
+  }
+
   const [regularData, boldData] = await Promise.all([
-    readFile(
-      resolve(process.cwd(), "src/assets/fonts/google-sans-code-400-normal.ttf")
+    fetch(experimental_getFontFileURL(regularFontPath, url)).then(res =>
+      res.arrayBuffer()
     ),
-    readFile(
-      resolve(process.cwd(), "src/assets/fonts/google-sans-code-700-normal.ttf")
+    fetch(experimental_getFontFileURL(boldFontPath, url)).then(res =>
+      res.arrayBuffer()
     ),
   ]);
 
