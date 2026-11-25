@@ -60,46 +60,91 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Monaspace Argon",
-      cssVariable: "--font-monaspace-argon",
+      name: "Google Sans Code",
+      cssVariable: "--font-google-sans-code",
       provider: fontProviders.local(),
       fallbacks: ["monospace"],
       options: {
         variants: [
           {
-            src: ["./src/assets/fonts/MonaspaceArgon-Light.otf"],
+            src: [
+              "./src/assets/fonts/google-sans-code-300-normal.woff",
+              "./src/assets/fonts/google-sans-code-300-normal.ttf",
+            ],
             weight: 300,
             style: "normal",
           },
           {
-            src: ["./src/assets/fonts/MonaspaceArgon-LightItalic.otf"],
+            src: [
+              "./src/assets/fonts/google-sans-code-300-italic.woff",
+              "./src/assets/fonts/google-sans-code-300-italic.ttf",
+            ],
             weight: 300,
             style: "italic",
           },
           {
-            src: ["./src/assets/fonts/MonaspaceArgon-Regular.otf"],
+            src: [
+              "./src/assets/fonts/google-sans-code-400-normal.woff",
+              "./src/assets/fonts/google-sans-code-400-normal.ttf",
+            ],
             weight: 400,
             style: "normal",
           },
           {
-            src: ["./src/assets/fonts/MonaspaceArgon-Italic.otf"],
+            src: [
+              "./src/assets/fonts/google-sans-code-400-italic.woff",
+              "./src/assets/fonts/google-sans-code-400-italic.ttf",
+            ],
             weight: 400,
             style: "italic",
           },
           {
-            src: ["./src/assets/fonts/MonaspaceArgon-Medium.otf"],
+            src: [
+              "./src/assets/fonts/google-sans-code-500-normal.woff",
+              "./src/assets/fonts/google-sans-code-500-normal.ttf",
+            ],
             weight: 500,
             style: "normal",
           },
           {
-            src: ["./src/assets/fonts/MonaspaceArgon-SemiBold.otf"],
+            src: [
+              "./src/assets/fonts/google-sans-code-500-italic.woff",
+              "./src/assets/fonts/google-sans-code-500-italic.ttf",
+            ],
+            weight: 500,
+            style: "italic",
+          },
+          {
+            src: [
+              "./src/assets/fonts/google-sans-code-600-normal.woff",
+              "./src/assets/fonts/google-sans-code-600-normal.ttf",
+            ],
             weight: 600,
             style: "normal",
           },
           {
-            src: ["./src/assets/fonts/MonaspaceArgon-Bold.otf"],
+            src: [
+              "./src/assets/fonts/google-sans-code-600-italic.woff",
+              "./src/assets/fonts/google-sans-code-600-italic.ttf",
+            ],
+            weight: 600,
+            style: "italic",
+          },
+          {
+            src: [
+              "./src/assets/fonts/google-sans-code-700-normal.woff",
+              "./src/assets/fonts/google-sans-code-700-normal.ttf",
+            ],
             weight: 700,
             style: "normal",
+          },
+          {
+            src: [
+              "./src/assets/fonts/google-sans-code-700-italic.woff",
+              "./src/assets/fonts/google-sans-code-700-italic.ttf",
+            ],
+            weight: 700,
+            style: "italic",
           },
         ],
       },

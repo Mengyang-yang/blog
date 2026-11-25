@@ -8,10 +8,10 @@ import config from "@/config";
 export const GET: APIRoute = async () => {
   const [regularData, boldData] = await Promise.all([
     readFile(
-      resolve(process.cwd(), "src/assets/fonts/MonaspaceArgon-Regular.otf")
+      resolve(process.cwd(), "src/assets/fonts/google-sans-code-400-normal.ttf")
     ),
     readFile(
-      resolve(process.cwd(), "src/assets/fonts/MonaspaceArgon-Bold.otf")
+      resolve(process.cwd(), "src/assets/fonts/google-sans-code-700-normal.ttf")
     ),
   ]);
 
@@ -26,7 +26,7 @@ export const GET: APIRoute = async () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Monaspace Argon",
+          fontFamily: "Google Sans Code",
         },
         children: [
           {
@@ -137,13 +137,13 @@ export const GET: APIRoute = async () => {
       embedFont: true,
       fonts: [
         {
-          name: "Monaspace Argon",
+          name: "Google Sans Code",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Monaspace Argon",
+          name: "Google Sans Code",
           data: boldData,
           weight: 700,
           style: "normal",
