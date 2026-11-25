@@ -7,7 +7,7 @@ draft: false
 tags:
   - learn
   - React
- description: After learnig "Your First Compoments", I write this article to sommary what I have learned.
+description: After learnig "Your First Compoments", I write this article to sommary what I have learned.
 ---
 
 # 1. English Part
