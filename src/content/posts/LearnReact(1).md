@@ -1,6 +1,7 @@
 ---
 author: Mengyang Yang
 pubDatetime: 2026-11-25T06:45:04.000Z
+modDatetime: 2026-11-26T03:02:15.000Z
 title: "LearnReact(1) -- Your First Components"
 featured: false
 draft: false
@@ -10,11 +11,11 @@ tags:
 description: 'After learning "Your First Components", I wrote this article to summarize what I have learned.'
 ---
 
-# 1. English Part
+## 1. English Part
 
 - **reusable components**
 
-Chinese Meaning: 可复用的、可嵌套的组件。
+  Chinese Meaning: 可复用的、可嵌套的组件。
 
 你在 React 中只写了一次 `function Profile` 的定义，但在下面却用了三次来展示 "League Of Legends"，所以说是 reusable components。
 
@@ -37,19 +38,19 @@ export default function Gallery() {
 
 - **Components**
 
-Chinese Meaning: 组件（元素）
+  Chinese Meaning: 组件（元素）
 
 Sentence: React applications are built from isolated pieces of UI called components.
 
 - **markup**
 
-Chinese Meaning: 标签代码（标记）
+  Chinese Meaning: 标签代码（标记）
 
 markup 指的是像 `<h1>`、`<div></div>`、`<section>`、`<img />` 等这类包起来的 HTML（HyperText Markup Language）标签。
 
 - **sprinkle**
 
-Chinese Meaning: 撒、点缀
+  Chinese Meaning: 撒、点缀
 
 > [!QUOTE]
 > A React component is a JavaScript function that you can sprinkle with markup.
@@ -78,17 +79,17 @@ function Profile() {
 
 - **capital letter**
 
-Chinese Meaning: 大写字母
+  Chinese Meaning: 大写字母
 
-lowercase: 小写字母
+同样的，lowcase指的就是小写字母，是capital的反义词。
 
 > [!QUOTE]
 > Their names must start with a capital letter or they won't work.
 
 React 是靠“首字母是大写还是小写”，来区分你写的是“浏览器自带的原生 HTML 标签”还是“你自己写的 React 组件”的。
-所以，Their names must start with a capital letter or they won't work.
+所以，**Their names must start with a capital letter or they won't work.**
 
-# 2. Code Part
+## 2. Code Part
 
 ```jsx
 // Displays a profile name and image.
@@ -134,3 +135,18 @@ export default function Gallery() {
   );
 }
 ```
+
+# 总结
+
+React最有意思的一点是，`React lets you combine your markup, CSS, and JavaScript into custom “components”, reusable UI elements for your app. ` 所以，你就象搭积木一样去搭建就行，一个组建可以被重复使用。
+
+官方文档提供了一些好用的**React open source community**:
+
+- [Material UI](https://mui.com/material-ui/)
+- [Chark UI]()
+
+
+
+
+
+
