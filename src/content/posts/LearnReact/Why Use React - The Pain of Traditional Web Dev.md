@@ -1,9 +1,12 @@
 ---
+author: Mengyang Yang
+pubDatetime: 2026-11-27T12:30:00.000Z
 title: "Why Use React? The Pain of Traditional Web Development"
-description: "A look at how React components make interface code easier to maintain, reuse, and keep in sync with data."
-date: 2025-06-05
+featured: false
+draft: false
 tags:
   - React
+description: "A look at how React components make interface code easier to maintain, reuse, and keep in sync with data."
 ---
 
 #### **❌ 1. The traditional approach (before React): organize by file type, and make every change a scavenger hunt**
