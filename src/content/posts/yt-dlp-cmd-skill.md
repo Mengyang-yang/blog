@@ -3,7 +3,7 @@ author: Mengyang Yang
 pubDatetime: 2026-10-14T00:00:00.000Z
 title: "How to Download the video using yt-dlp"
 featured: false
-draft: false
+draft: true
 tags:
   - tools
   - cli
